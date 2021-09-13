@@ -1,0 +1,144 @@
+/* mobile */
+@media (max-width:740px) {
+
+}
+
+/* tablet -pc low*/
+@media ( min-width: 740px ) and (max-width:1023px){
+
+}
+
+/* <pc low */
+@media (max-width:1023px) {
+.header{
+    display: none;
+      }
+.header-container-list{
+    display: none;
+}
+
+.header-contaier-child{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-container-page{
+    flex: none;
+}
+
+.header-icon-menu{
+    display: block;
+    padding-top: 7px;
+}
+
+.nav-mobile{
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 300px;
+    max-width: 100%;
+    background-color:rgb(67, 74, 84) ;
+    padding: 40px;
+    z-index: 1;
+    overflow-y: auto;
+    transform: translateX(100%);
+    opacity: 0;
+    transition: all linear 0.2s;
+}
+
+.header-container-item-mobile{
+    list-style: none;
+    padding-bottom: 30px;
+}
+
+.header-container-item-name-mobile{
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+}
+
+.header-navbar-new-contact-mobile,
+.header-navbar-new-item-mobile,
+.header-navbar-page-item-mobile,
+.header-navbar-shop-item-mobile,
+.header-navbar-pkg-item-mobile{
+    list-style: none;
+    font-size: 14px;
+    color: #fff;
+    padding: 10px;
+}
+
+.header-navbar-contact-1-item-mobile,
+.header-navbar-new-1-item-mobile{
+    list-style: none;
+    padding: 10px;
+}
+
+.nav-mobile-close{
+    font-size: 20px;
+}
+
+.nav-mobile-close-icon{
+    width: 25px;
+    height: 25px;
+    color: #fff;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.nav__input:checked ~ .nav-mobile{
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.slider-box-choice{
+    margin-left: 4px;
+}
+
+.body-packages-traver-country-img-box{
+    width: 100%;
+}
+
+.body-packages-traver-country-dec{
+   width: 100%;
+   flex-wrap: wrap;
+}
+
+.body-packages-traver-country-name{
+    width: 100%;
+}
+
+.body-packages-traver-country-name-item{
+    background-color: #fff;
+    color: #5e6e81;
+    padding: 20px 20px 0;
+}
+
+.body-packages-traver-cuontry-tiem-2{
+    padding: 20px;
+}
+
+.body-packages-traver-country-money{
+    width: initial;
+    margin: 0 0 20px 20px;
+}
+
+.body-packages-traver-country-1{
+    font-size: 18px;
+    padding: 10px 21px 7px 21px;
+}
+
+.body-packages-traver-country-2{
+    display: none;
+}
+
+}
+
+
+/* pc low > */
+@media(min-width:1113px) {
+
+}
